@@ -107,11 +107,11 @@
 .col-md-4>input{
     background:transparent;
     border:1px solid white;
-    margin-left:50%;
+    margin-left:200px;
     margin-bottom:5%;
 }
 .col-md-8>textarea{
-    margin-left:24.2%;
+    margin-left:200px;
     margin-bottom:5%;
     height:200px;
     background:transparent;
