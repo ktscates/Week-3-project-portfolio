@@ -1,0 +1,72 @@
+.design{
+    display:none;
+}
+.development{
+    display:none;
+}
+.product{
+    display:none;
+}
+#text{
+    display:none;
+}
+.main{
+    margin:10px;
+    padding:10px;
+}
+#row{
+    text-align:center;
+}
+.col-md-3>img{
+    height: 70%;
+    width:100%;
+}
+.col-md-3 :hover{
+    background-color:white;
+    opacity:0.5;
+    height:60%;
+    width:80%;
+}
+.col-md-3 p{
+    display:none;
+}
+.text1{
+    color:black;
+    margin-top:-30%;
+    margin-left:30%;
+}
+.text2{
+    color:black;
+    margin-top:-30%;
+    margin-left:30%;
+}
+.text3{
+    color:black;
+    margin-top:-30%;
+    margin-left:30%;
+}
+.text4{
+    color:black;
+    margin-top:-30%;
+    margin-left:30%;
+}
+.text5{
+    color:black;
+    margin-top:-30%;
+    margin-left:30%;
+}
+.text6{
+    color:black;
+    margin-top:-30%;
+    margin-left:30%;
+}
+.text7{
+    color:black;
+    margin-top:-30%;
+    margin-left:30%;
+}
+.text8{
+    color:black;
+    margin-top:-30%;
+    margin-left:30%;
+}
