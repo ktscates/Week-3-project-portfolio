@@ -1,11 +1,11 @@
 $(document).ready(function(){
-    $("img#design").click(function(){
+    $("#design").click(function(){
         $(".design").toggle()
     });
-    $("img#development").click(function(){
+    $("#development").click(function(){
         $(".development").toggle()
     });
-    $("img#product").click(function(){
+    $("#product").click(function(){
         $(".product").toggle()
     });
     $("#work1").mouseover(function () {

@@ -81,6 +81,21 @@
 .col-md-12>#header .img{
     margin-bottom:3%;
 }
-#header p{
-    margin-bottom:10%
+#about{
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;
+}
+#services{
+    text-align:center;
+    color:white;
+    padding:10%;
+}
+.col-md-4{
+    text-align:center;
+}
+#title{
+    text-align:center;
+    margin:3%;
 }
