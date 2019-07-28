@@ -64,4 +64,7 @@ $(document).ready(function(){
     $("#work8").mouseleave(function () {
         $("#text8").hide();
     });
+    $("button").click(function(){
+        alert(name+" Your message has been received. Thank you.")
+    });
 });
