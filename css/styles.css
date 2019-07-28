@@ -11,8 +11,9 @@
     display:none;
 }
 .main{
-    margin:10px;
     padding:10px;
+    margin:5px;
+
 }
 #row{
     text-align:center;
@@ -69,4 +70,17 @@
     color:black;
     margin-top:-30%;
     margin-left:30%;
+}
+
+.col-md-12>#header{
+    padding:15%;
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+}
+.col-md-12>#header .img{
+    margin-bottom:3%;
+}
+#header p{
+    margin-bottom:10%
 }

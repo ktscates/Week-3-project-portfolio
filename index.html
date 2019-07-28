@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" text="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" text="text/css" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
     <title>Delani Studio</title>
@@ -14,17 +15,17 @@
 <body>
     <div class="main">
         <div class="row">
-            <div class="col-lg-12" style="background-image:url(img/backgrounds/h_img.jpg);background-size:cover;background-repeat:no-repeat;">
-                <div>
-                    <img src="img/logo/logo.png">
-                    <h1>Welcome to Delani Studio</h1>
-                    <p>Amazing People are Making Amazing Designs in a Fun Evironment </p>
-                    <img src="img/mouse_click.png">
+            <div class="col-md-12" style="background-image:url(img/backgrounds/h_img.jpg);background-size:contain;background-repeat:no-repeat;">
+                <div id="header">
+                    <img src="img/logo/logo.png" alt="logo" class="img">
+                    <h1>Welcome<br><br>to Delani Studio</h1>
+                    <p>Amazing People are Making Amazing Designs in a Fun Evironment </p><br><br><br>
+                    <img src="img/mouse_click.png" alt="logo" id="img">
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-md-12">
                 <h2>About Us</h2>
                 <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software developement process are integrated, interactive and agile.</p>
                 <p>Our approach unifies design, development and product management to create exceptional products.</p>
@@ -32,7 +33,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12" style="background-image:url(img/backgrounds/s_image.jpg);background-size:cover;background-repeat:no-repeat;">
+            <div class="col-md-12" style="background-image:url(img/backgrounds/s_image.jpg);background-size:cover;background-repeat:no-repeat;">
                 <div>
                     <h2>Services</h2>
                     <p>Before we sign a contract or write a line of code out team will spend the necessary time needed to understand your product vision.</p>
@@ -40,53 +41,85 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="row">
                 <h2>What we do</h2>
             <div>
-                <img src="img/services_icons/design_icon.png">
+                <img src="img/services_icons/design_icon.png" id=design>
                 <p>Design</p>
-                <h4>Desgin</h4>
-                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                <h4 class="design">Design</h4>
+                <p class="design">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
             </div>
             <div >
-                <img src="img/services_icons/dev_icon.png">
+                <img src="img/services_icons/dev_icon.png" id="development">
                 <p>Development</p>
-                <h4>Development</h4>
-                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+                <h4 class="development">Development</h4>
+                <p class="development">All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
             </div>
             <div>
-                <img src="img/services_icons/product_icon.png">
+                <img src="img/services_icons/product_icon.png" id="product">
                 <p>Product</p>
-                <h4>Product</h4>
-                <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+                <h4 class="product">Product</h4>
+                <p class="product">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
             </div>
         </div>
         <div class="row">
             <h2>Portfolio</h2>
-            <img src="img/portfolio/work1.jpg">
-            <img src="img/portfolio/work2.jpg">
-            <img src="img/portfolio/work3.jpg">
-            <img src="img/portfolio/work4.jpg">
-            <img src="img/portfolio/work5.jpg">
-            <img src="img/portfolio/work6.jpg">
-            <img src="img/portfolio/work7.jpg">
-            <img src="img/portfolio/work8.jpg">
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/portfolio/work1.jpg" id="work1">
+                <p id="text1">work1</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/portfolio/work2.jpg" id="work2">
+                <p id="text2">work2</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/portfolio/work3.jpg" id="work3">
+                <p id="text3">work3</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/portfolio/work4.jpg" id="work4">
+                <p id="text4">work4</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="img/portfolio/work5.jpg" id="work5">
+                <p id="text5">work5</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/portfolio/work6.jpg" id="work6">
+                <p id="text6">work6</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/portfolio/work7.jpg" id="work7">
+                <p id="text7">work7</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/portfolio/work8.jpg" id="work8">
+                <p id="text8">work8</p>
+            </div>
         </div>
         <div class="row">
             <div class="col-lg-12" style="background-image:url(img/backgrounds/c_image.jpg);background-size:cover;background-repeat:no-repeat;">
                 <h2>Contact us</h2>
                 <div>
-                    <div>
-                        <input type="text" placeholder="Name...">
-                        <input type="text" placeholder="Email...">
-                    </div>
-                    <div>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your message here..."></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="Send">
-                    </div>
+                    <form>
+                        <div>
+                            <input type="text" id="name" placeholder="Name..." required>
+                            <input type="email" id="email" placeholder="Email..." required>
+                        </div>
+                        <div>
+                            <textarea name="area" id="area" cols="30" rows="10" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Send" id="submit" onclick="sendMail()">
+                        </div>
+                    </form>
                 </div>
+
+                    
             </div>
         </div>
         <div class="row">
