@@ -104,13 +104,6 @@
     text-align:center;
     margin:3%;
 }
-.col-md-12{
-    color:white;
-    text-align:center;
-}
-.col-md-12>h2{
-    margin:3%;
-}
 .col-md-4>input{
     background:transparent;
     border:1px solid white;
@@ -123,4 +116,31 @@
     height:200px;
     background:transparent;
     border:1px solid white;
+}
+#row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#row img{
+    margin-top:5%;
+    margin-right:0.5%;
+    height:2%;
+    width:2%;
+}
+h6{
+    text-align:center;
+    margin-top:5%;
+}
+#year{
+    text-align:center;
+}
+
+.col-md-12>#h2{
+    text-align:center;
+    color:white;
+    margin:2%;
+}
+.col-md-12{
+    text-align:center;
 }
