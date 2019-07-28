@@ -144,3 +144,15 @@ h6{
 .col-md-12{
     text-align:center;
 }
+h2{
+    text-transform:uppercase;
+}
+.col-md-4>p{
+    text-transform:uppercase;
+}
+.col-sm-12{
+    padding:50px;
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+}
