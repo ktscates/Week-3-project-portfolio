@@ -104,3 +104,23 @@
     text-align:center;
     margin:3%;
 }
+.col-md-12{
+    color:white;
+    text-align:center;
+}
+.col-md-12>h2{
+    margin:3%;
+}
+.col-md-4>input{
+    background:transparent;
+    border:1px solid white;
+    margin-left:50%;
+    margin-bottom:5%;
+}
+.col-md-8>textarea{
+    margin-left:24.2%;
+    margin-bottom:5%;
+    height:200px;
+    background:transparent;
+    border:1px solid white;
+}
