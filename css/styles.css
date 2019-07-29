@@ -12,6 +12,7 @@
 }
 .main{
     margin:5px;
+    font-family: 'Roboto', sans-serif;
 }
 #row1{
     display:flex;
@@ -99,11 +100,13 @@
     text-align:center;
     text-transform: uppercase;
 }
+
 .col-md-12>#header .img{
     margin-bottom:3%;
 }
 #about{
     text-align:center;
+    margin-top:5%;
     margin-left:10%;
     margin-right:10%;
     margin-bottom:5%;
@@ -111,7 +114,7 @@
 #services{
     text-align:center;
     color:white;
-    padding:10%;
+    padding:8%;
 }
 .col-md-4{
     text-align:center;
@@ -163,7 +166,7 @@ h6{
 h2{
     text-transform:uppercase;
 }
-.col-md-4>p{
+.col-md-4>h4{
     text-transform:uppercase;
 }
 #email::placeholder{
@@ -174,4 +177,22 @@ h2{
 }
 #area::placeholder{
     color:white;
+}
+#header>p{
+    font-size:12px;
+}
+.designlogo{
+    font-size:15px;
+    font-weight:bold;
+}
+.devlogo{
+    font-size:15px;
+    font-weight:bold;
+}
+.prodlogo{
+    font-size:15px;
+    font-weight:bold;
+}
+h4{
+    font-weight:bolder;
 }
