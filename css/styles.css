@@ -1,5 +1,5 @@
 .design{
-    
+
     display:none;
 }
 
@@ -239,6 +239,24 @@ h2{
 
 .col-md-4>h4{
 
+    text-transform:uppercase;
+}
+
+.col-md-4>.designlogo{
+
+    margin:5px;
+    text-transform:uppercase;
+}
+
+.col-md-4>.devlogo{
+
+    margin:5px;
+    text-transform:uppercase;
+}
+
+.col-md-4>.prodlogo{
+
+    margin:3px;
     text-transform:uppercase;
 }
 
