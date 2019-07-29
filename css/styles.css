@@ -116,12 +116,16 @@
     color:white;
     padding:8%;
 }
+#services>h2{
+    font-weight:bold;
+}
 .col-md-4{
     text-align:center;
 }
 #title{
     text-align:center;
     margin:3%;
+    font-weight:bold;
 }
 .col-md-4>input{
     background:transparent;
@@ -165,6 +169,7 @@ h6{
 }
 h2{
     text-transform:uppercase;
+    font-weight:bold;
 }
 .col-md-4>h4{
     text-transform:uppercase;
@@ -194,5 +199,8 @@ h2{
     font-weight:bold;
 }
 h4{
+    font-weight:bolder;
+}
+#header>h1{
     font-weight:bolder;
 }

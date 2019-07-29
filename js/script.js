@@ -83,6 +83,7 @@ $(document).ready(function(){
         var names=$("#name").val();
         var emails=$("#email").val();
         var text=$("#area").val();
+        
         alert(names+", Your Message has been received. Thank You for contacting Us. We will get back to you using your email: "+emails);
 
         event.preventDefault();
