@@ -126,11 +126,12 @@
     margin-bottom:10%;
 }
 .col-md-8>textarea{
-    align-items:center;
-    margin-bottom:10%;
     height:100%;
     background:transparent;
     border:1px solid white;
+}
+.col-md-8{
+    margin-bottom:3%;
 }
 #row{
     display:flex;
@@ -164,4 +165,13 @@ h2{
 }
 .col-md-4>p{
     text-transform:uppercase;
+}
+#email::placeholder{
+    color:white;
+}
+#name::placeholder{
+    color:white;
+}
+#area::placeholder{
+    color:white;
 }
